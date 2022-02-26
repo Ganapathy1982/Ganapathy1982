@@ -22,3 +22,5 @@ Protected Health Information (PHI)
 - Information about health status,payment for health care are collected with "Covered Entity"
 - Patient's medical record and/or payment history
 
+
+version 1.2.3
