@@ -1,0 +1,24 @@
+Basic AWS Identity and Access Management (IAM) configuration with custom IAM policies, with associated groups, roles, and instance profiles.
+Amazon Simple Storage Service (Amazon S3) buckets for encrypted web content, logging, and backup data.
+Encrypted, Multi-AZ Amazon Relational Database Service (Amazon RDS) MySQL database.
+Logging, monitoring, and alerts using AWS CloudTrail, Amazon CloudWatch, and AWS Config rules.
+
+
+HIPAA Requirements
+PHI Must be encrypted both in Transit and Rest (Data includes Patient's Medical Record or payment history)
+Access to PHI (Including Systems that store,process Transmit) must be logged and Monitored
+Unique User Identification
+Strong Authentication 
+SIgn with BAA (Business Associate Agreements - 
+Dedicated EC2 Instances for Processing,storing or Transmitting ePHI
+
+
+
+Business Associate Agreement (BAA) 
+- Entity who performs functions or activities on behalf of
+- In our case AWS are considered business associates
+
+Protected Health Information (PHI)
+- Information about health status,payment for health care are collected with "Covered Entity"
+- Patient's medical record and/or payment history
+
